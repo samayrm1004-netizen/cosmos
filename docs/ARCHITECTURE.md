@@ -14,3 +14,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-19 22:14] - feat(planner): support dynamic step retry on transient failures
 - Added exponential backoff policy for flaky external tool invocations.
+
+## [2025-12-23 15:41] - perf(tokens): add fast token counting utility using tiktoken
+- Pre-calculated prompt sizes to optimize window utilization.
