@@ -17,3 +17,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-23 15:41] - perf(tokens): add fast token counting utility using tiktoken
 - Pre-calculated prompt sizes to optimize window utilization.
+
+## [2025-12-25 18:55] - docs(arch): add sequence diagram for subagent dispatch mechanism
+- Outlined communication protocol between coordinator and workers.
