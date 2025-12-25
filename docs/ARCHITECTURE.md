@@ -20,3 +20,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-25 18:55] - docs(arch): add sequence diagram for subagent dispatch mechanism
 - Outlined communication protocol between coordinator and workers.
+
+## [2025-12-25 19:36] - fix(runner): prevent deadlock in circular dependency resolution
+- Added topological sort cycle detection with clear error traceback.
