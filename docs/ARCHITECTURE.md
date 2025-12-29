@@ -23,3 +23,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-25 19:36] - fix(runner): prevent deadlock in circular dependency resolution
 - Added topological sort cycle detection with clear error traceback.
+
+## [2025-12-29 16:07] - test(engine): add execution graph unit test suite
+- Tested parallel branch resolution and early exit conditions.
