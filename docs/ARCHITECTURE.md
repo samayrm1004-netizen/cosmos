@@ -32,3 +32,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-30 16:40] - perf(tokens): add fast token counting utility using tiktoken
 - Pre-calculated prompt sizes to optimize window utilization.
+
+## [2025-12-30 17:25] - chore: set up automated linting and formatting configuration
+- Added ruff and black configurations for repository consistency.
