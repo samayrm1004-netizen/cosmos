@@ -29,3 +29,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-29 19:23] - fix(runner): prevent deadlock in circular dependency resolution
 - Added topological sort cycle detection with clear error traceback.
+
+## [2025-12-30 16:40] - perf(tokens): add fast token counting utility using tiktoken
+- Pre-calculated prompt sizes to optimize window utilization.
