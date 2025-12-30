@@ -38,3 +38,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-30 19:36] - perf(memory): implement LRU eviction for agent short-term buffer
 - Bounded context token usage to prevent out-of-memory errors on long runs.
+
+## [2025-12-30 21:24] - feat(core): initialize workflow execution graph engine
+- Created foundational directed acyclic graph runner for autonomous tasks.
