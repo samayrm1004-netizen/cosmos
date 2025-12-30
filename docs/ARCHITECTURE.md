@@ -35,3 +35,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-30 17:25] - chore: set up automated linting and formatting configuration
 - Added ruff and black configurations for repository consistency.
+
+## [2025-12-30 19:36] - perf(memory): implement LRU eviction for agent short-term buffer
+- Bounded context token usage to prevent out-of-memory errors on long runs.
