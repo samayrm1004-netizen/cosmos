@@ -41,3 +41,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2025-12-30 21:24] - feat(core): initialize workflow execution graph engine
 - Created foundational directed acyclic graph runner for autonomous tasks.
+
+## [2026-01-02 15:21] - feat(storage): implement SQLite checkpointing for resumable workflows
+- Allowed agents to persist intermediate state across restarts.
