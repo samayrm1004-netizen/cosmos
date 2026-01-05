@@ -47,3 +47,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-02 21:52] - docs(quickstart): write introductory walkthrough and example usage
 - Documented single-agent and multi-agent coordination setup.
+
+## [2026-01-05 21:08] - refactor(tools): standardize tool output schema and status codes
+- Normalized tool results into structured Result object.
