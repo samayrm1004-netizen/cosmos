@@ -50,3 +50,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-05 21:08] - refactor(tools): standardize tool output schema and status codes
 - Normalized tool results into structured Result object.
+
+## [2026-01-05 22:43] - feat(planner): support dynamic step retry on transient failures
+- Added exponential backoff policy for flaky external tool invocations.
