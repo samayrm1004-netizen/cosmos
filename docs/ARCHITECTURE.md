@@ -56,3 +56,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-06 12:19] - refactor(scheduler): migrate priority queue to min-heap implementation
 - Reduced task scheduling overhead to logarithmic time complexity.
+
+## [2026-01-06 22:47] - feat(eval): add evaluation harness for agent decision trajectory
+- Enabled automated benchmarking of plan efficiency.
