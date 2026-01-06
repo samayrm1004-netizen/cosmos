@@ -53,3 +53,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-05 22:43] - feat(planner): support dynamic step retry on transient failures
 - Added exponential backoff policy for flaky external tool invocations.
+
+## [2026-01-06 12:19] - refactor(scheduler): migrate priority queue to min-heap implementation
+- Reduced task scheduling overhead to logarithmic time complexity.
