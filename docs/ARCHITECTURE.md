@@ -59,3 +59,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-06 22:47] - feat(eval): add evaluation harness for agent decision trajectory
 - Enabled automated benchmarking of plan efficiency.
+
+## [2026-01-13 18:01] - fix(timeout): add execution dead-mans-switch for stuck tool processes
+- Killed orphan sub-processes exceeding 120s execution window.
