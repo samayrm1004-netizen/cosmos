@@ -62,3 +62,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-13 18:01] - fix(timeout): add execution dead-mans-switch for stuck tool processes
 - Killed orphan sub-processes exceeding 120s execution window.
+
+## [2026-01-13 21:32] - feat(tools): add sandboxed Python execution tool adapter
+- Integrated subprocess isolation and output stream capturing.
