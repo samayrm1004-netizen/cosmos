@@ -65,3 +65,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-13 21:32] - feat(tools): add sandboxed Python execution tool adapter
 - Integrated subprocess isolation and output stream capturing.
+
+## [2026-01-25 12:53] - refactor(tools): standardize tool output schema and status codes
+- Normalized tool results into structured Result object.
