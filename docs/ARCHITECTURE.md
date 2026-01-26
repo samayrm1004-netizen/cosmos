@@ -74,3 +74,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-26 12:22] - style(cli): improve terminal table formatting and progress output
 - Styled status tables with clean border alignments.
+
+## [2026-01-26 13:23] - fix(memory): avoid memory leak when disposing inactive agent sessions
+- Explicitly cleared lingering event listeners on session terminate.
