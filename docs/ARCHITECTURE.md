@@ -80,3 +80,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-26 19:46] - perf(memory): implement LRU eviction for agent short-term buffer
 - Bounded context token usage to prevent out-of-memory errors on long runs.
+
+## [2026-01-29 14:53] - perf(memory): implement LRU eviction for agent short-term buffer
+- Bounded context token usage to prevent out-of-memory errors on long runs.
