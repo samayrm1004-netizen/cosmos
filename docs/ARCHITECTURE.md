@@ -86,3 +86,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-03 16:31] - style(cli): improve terminal table formatting and progress output
 - Styled status tables with clean border alignments.
+
+## [2026-02-03 18:39] - feat(storage): implement SQLite checkpointing for resumable workflows
+- Allowed agents to persist intermediate state across restarts.
