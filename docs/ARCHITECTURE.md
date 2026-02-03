@@ -89,3 +89,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-03 18:39] - feat(storage): implement SQLite checkpointing for resumable workflows
 - Allowed agents to persist intermediate state across restarts.
+
+## [2026-02-03 21:12] - chore: set up automated linting and formatting configuration
+- Added ruff and black configurations for repository consistency.
