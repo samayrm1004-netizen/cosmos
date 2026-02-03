@@ -83,3 +83,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-01-29 14:53] - perf(memory): implement LRU eviction for agent short-term buffer
 - Bounded context token usage to prevent out-of-memory errors on long runs.
+
+## [2026-02-03 16:31] - style(cli): improve terminal table formatting and progress output
+- Styled status tables with clean border alignments.
