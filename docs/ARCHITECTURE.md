@@ -95,3 +95,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-05 16:02] - style(cli): improve terminal table formatting and progress output
 - Styled status tables with clean border alignments.
+
+## [2026-02-10 16:19] - feat(integrations): add webhook notification dispatch hook
+- Emitted state transition payloads to registered webhook endpoints.
