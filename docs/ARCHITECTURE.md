@@ -101,3 +101,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-11 19:46] - style(cli): improve terminal table formatting and progress output
 - Styled status tables with clean border alignments.
+
+## [2026-02-11 20:18] - feat(tools): add sandboxed Python execution tool adapter
+- Integrated subprocess isolation and output stream capturing.
