@@ -104,3 +104,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-11 20:18] - feat(tools): add sandboxed Python execution tool adapter
 - Integrated subprocess isolation and output stream capturing.
+
+## [2026-02-11 22:24] - fix(memory): avoid memory leak when disposing inactive agent sessions
+- Explicitly cleared lingering event listeners on session terminate.
