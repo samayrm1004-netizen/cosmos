@@ -110,3 +110,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-18 10:56] - docs(quickstart): write introductory walkthrough and example usage
 - Documented single-agent and multi-agent coordination setup.
+
+## [2026-02-18 14:56] - test(engine): add execution graph unit test suite
+- Tested parallel branch resolution and early exit conditions.
