@@ -116,3 +116,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-18 22:12] - chore: set up automated linting and formatting configuration
 - Added ruff and black configurations for repository consistency.
+
+## [2026-02-18 22:30] - fix(timeout): add execution dead-mans-switch for stuck tool processes
+- Killed orphan sub-processes exceeding 120s execution window.
