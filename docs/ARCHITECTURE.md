@@ -107,3 +107,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-11 22:24] - fix(memory): avoid memory leak when disposing inactive agent sessions
 - Explicitly cleared lingering event listeners on session terminate.
+
+## [2026-02-18 10:56] - docs(quickstart): write introductory walkthrough and example usage
+- Documented single-agent and multi-agent coordination setup.
