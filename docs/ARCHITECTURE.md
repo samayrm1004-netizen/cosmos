@@ -119,3 +119,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-18 22:30] - fix(timeout): add execution dead-mans-switch for stuck tool processes
 - Killed orphan sub-processes exceeding 120s execution window.
+
+## [2026-02-18 22:39] - fix(runner): prevent deadlock in circular dependency resolution
+- Added topological sort cycle detection with clear error traceback.
