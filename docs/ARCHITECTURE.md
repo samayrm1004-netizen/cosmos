@@ -122,3 +122,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-18 22:39] - fix(runner): prevent deadlock in circular dependency resolution
 - Added topological sort cycle detection with clear error traceback.
+
+## [2026-02-19 11:58] - refactor(scheduler): migrate priority queue to min-heap implementation
+- Reduced task scheduling overhead to logarithmic time complexity.
