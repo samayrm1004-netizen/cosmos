@@ -125,3 +125,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-19 11:58] - refactor(scheduler): migrate priority queue to min-heap implementation
 - Reduced task scheduling overhead to logarithmic time complexity.
+
+## [2026-02-19 16:40] - style(cli): improve terminal table formatting and progress output
+- Styled status tables with clean border alignments.
