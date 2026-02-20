@@ -128,3 +128,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-19 16:40] - style(cli): improve terminal table formatting and progress output
 - Styled status tables with clean border alignments.
+
+## [2026-02-20 11:52] - feat(context): implement hierarchical memory consolidation
+- Summarized older conversational history into compact vector embeddings.
