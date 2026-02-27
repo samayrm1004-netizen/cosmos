@@ -131,3 +131,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-20 11:52] - feat(context): implement hierarchical memory consolidation
 - Summarized older conversational history into compact vector embeddings.
+
+## [2026-02-27 16:23] - fix(timeout): add execution dead-mans-switch for stuck tool processes
+- Killed orphan sub-processes exceeding 120s execution window.
