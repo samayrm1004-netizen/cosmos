@@ -134,3 +134,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-02-27 16:23] - fix(timeout): add execution dead-mans-switch for stuck tool processes
 - Killed orphan sub-processes exceeding 120s execution window.
+
+## [2026-03-05 10:56] - style(cli): improve terminal table formatting and progress output
+- Styled status tables with clean border alignments.
