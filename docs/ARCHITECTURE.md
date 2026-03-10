@@ -140,3 +140,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-03-09 12:33] - perf(tokens): add fast token counting utility using tiktoken
 - Pre-calculated prompt sizes to optimize window utilization.
+
+## [2026-03-10 14:40] - refactor(tools): standardize tool output schema and status codes
+- Normalized tool results into structured Result object.
