@@ -143,3 +143,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-03-10 14:40] - refactor(tools): standardize tool output schema and status codes
 - Normalized tool results into structured Result object.
+
+## [2026-03-12 22:17] - feat(eval): add evaluation harness for agent decision trajectory
+- Enabled automated benchmarking of plan efficiency.
