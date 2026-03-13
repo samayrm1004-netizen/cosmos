@@ -146,3 +146,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-03-12 22:17] - feat(eval): add evaluation harness for agent decision trajectory
 - Enabled automated benchmarking of plan efficiency.
+
+## [2026-03-13 19:22] - feat(planner): support dynamic step retry on transient failures
+- Added exponential backoff policy for flaky external tool invocations.
