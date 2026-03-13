@@ -149,3 +149,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-03-13 19:22] - feat(planner): support dynamic step retry on transient failures
 - Added exponential backoff policy for flaky external tool invocations.
+
+## [2026-03-13 22:07] - perf(events): decouple state broadcast listener from worker loop
+- Used async event queue to avoid blocking main execution flow.
