@@ -152,3 +152,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-03-13 22:07] - perf(events): decouple state broadcast listener from worker loop
 - Used async event queue to avoid blocking main execution flow.
+
+## [2026-03-21 10:51] - feat(storage): implement SQLite checkpointing for resumable workflows
+- Allowed agents to persist intermediate state across restarts.
