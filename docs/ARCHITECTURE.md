@@ -158,3 +158,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-03-23 12:03] - perf(graph): memoize completed node outputs during branch replay
 - Skipped duplicate computation for idempotent workflow branches.
+
+## [2026-04-03 15:30] - perf(events): decouple state broadcast listener from worker loop
+- Used async event queue to avoid blocking main execution flow.
