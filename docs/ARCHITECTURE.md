@@ -161,3 +161,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-04-03 15:30] - perf(events): decouple state broadcast listener from worker loop
 - Used async event queue to avoid blocking main execution flow.
+
+## [2026-04-13 22:05] - fix(timeout): add execution dead-mans-switch for stuck tool processes
+- Killed orphan sub-processes exceeding 120s execution window.
