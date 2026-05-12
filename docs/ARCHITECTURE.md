@@ -164,3 +164,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-04-13 22:05] - fix(timeout): add execution dead-mans-switch for stuck tool processes
 - Killed orphan sub-processes exceeding 120s execution window.
+
+## [2026-05-12 15:55] - fix(timeout): add execution dead-mans-switch for stuck tool processes
+- Killed orphan sub-processes exceeding 120s execution window.
