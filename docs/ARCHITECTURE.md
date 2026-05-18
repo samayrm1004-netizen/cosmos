@@ -167,3 +167,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-05-12 15:55] - fix(timeout): add execution dead-mans-switch for stuck tool processes
 - Killed orphan sub-processes exceeding 120s execution window.
+
+## [2026-05-18 13:25] - refactor(config): centralize environment schema validation using Pydantic
+- Enforced type safety and required secret validation at startup.
