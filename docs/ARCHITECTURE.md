@@ -173,3 +173,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-05-18 19:49] - feat(tools): add sandboxed Python execution tool adapter
 - Integrated subprocess isolation and output stream capturing.
+
+## [2026-06-06 10:10] - refactor(config): centralize environment schema validation using Pydantic
+- Enforced type safety and required secret validation at startup.
