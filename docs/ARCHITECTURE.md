@@ -179,3 +179,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-06-08 18:43] - test(engine): add execution graph unit test suite
 - Tested parallel branch resolution and early exit conditions.
+
+## [2026-06-08 18:47] - fix(timeout): add execution dead-mans-switch for stuck tool processes
+- Killed orphan sub-processes exceeding 120s execution window.
