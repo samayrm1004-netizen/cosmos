@@ -185,3 +185,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-06-10 21:15] - fix(timeout): add execution dead-mans-switch for stuck tool processes
 - Killed orphan sub-processes exceeding 120s execution window.
+
+## [2026-06-12 11:30] - refactor(scheduler): migrate priority queue to min-heap implementation
+- Reduced task scheduling overhead to logarithmic time complexity.
