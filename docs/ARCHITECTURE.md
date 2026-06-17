@@ -188,3 +188,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-06-12 11:30] - refactor(scheduler): migrate priority queue to min-heap implementation
 - Reduced task scheduling overhead to logarithmic time complexity.
+
+## [2026-06-17 12:34] - fix(memory): avoid memory leak when disposing inactive agent sessions
+- Explicitly cleared lingering event listeners on session terminate.
