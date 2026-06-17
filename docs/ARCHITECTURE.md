@@ -191,3 +191,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-06-17 12:34] - fix(memory): avoid memory leak when disposing inactive agent sessions
 - Explicitly cleared lingering event listeners on session terminate.
+
+## [2026-06-17 15:34] - fix(parser): handle unescaped markdown JSON codeblocks cleanly
+- Stripped leading/trailing backticks and sanitized raw string payloads.
