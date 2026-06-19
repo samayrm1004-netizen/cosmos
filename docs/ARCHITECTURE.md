@@ -197,3 +197,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-06-19 17:09] - perf(events): decouple state broadcast listener from worker loop
 - Used async event queue to avoid blocking main execution flow.
+
+## [2026-06-19 19:12] - fix(runner): prevent deadlock in circular dependency resolution
+- Added topological sort cycle detection with clear error traceback.
