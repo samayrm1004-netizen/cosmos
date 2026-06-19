@@ -194,3 +194,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-06-17 15:34] - fix(parser): handle unescaped markdown JSON codeblocks cleanly
 - Stripped leading/trailing backticks and sanitized raw string payloads.
+
+## [2026-06-19 17:09] - perf(events): decouple state broadcast listener from worker loop
+- Used async event queue to avoid blocking main execution flow.
