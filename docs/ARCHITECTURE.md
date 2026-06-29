@@ -203,3 +203,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-06-29 15:25] - perf(memory): implement LRU eviction for agent short-term buffer
 - Bounded context token usage to prevent out-of-memory errors on long runs.
+
+## [2026-06-29 19:55] - fix(runner): prevent deadlock in circular dependency resolution
+- Added topological sort cycle detection with clear error traceback.
