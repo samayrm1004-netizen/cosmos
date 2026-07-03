@@ -209,3 +209,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-03 14:09] - style(cli): improve terminal table formatting and progress output
 - Styled status tables with clean border alignments.
+
+## [2026-07-03 20:02] - perf(tokens): add fast token counting utility using tiktoken
+- Pre-calculated prompt sizes to optimize window utilization.
