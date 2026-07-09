@@ -215,3 +215,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-09 11:13] - feat(context): implement hierarchical memory consolidation
 - Summarized older conversational history into compact vector embeddings.
+
+## [2026-07-09 17:23] - refactor(tools): standardize tool output schema and status codes
+- Normalized tool results into structured Result object.
