@@ -218,3 +218,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-09 17:23] - refactor(tools): standardize tool output schema and status codes
 - Normalized tool results into structured Result object.
+
+## [2026-07-13 10:34] - fix(parser): handle unescaped markdown JSON codeblocks cleanly
+- Stripped leading/trailing backticks and sanitized raw string payloads.
