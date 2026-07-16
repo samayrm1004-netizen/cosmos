@@ -221,3 +221,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-13 10:34] - fix(parser): handle unescaped markdown JSON codeblocks cleanly
 - Stripped leading/trailing backticks and sanitized raw string payloads.
+
+## [2026-07-16 11:52] - feat(integrations): add webhook notification dispatch hook
+- Emitted state transition payloads to registered webhook endpoints.
