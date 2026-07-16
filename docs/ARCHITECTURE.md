@@ -230,3 +230,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-16 19:36] - feat(core): initialize workflow execution graph engine
 - Created foundational directed acyclic graph runner for autonomous tasks.
+
+## [2026-07-16 20:01] - docs(arch): add sequence diagram for subagent dispatch mechanism
+- Outlined communication protocol between coordinator and workers.
