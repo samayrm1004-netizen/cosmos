@@ -236,3 +236,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-21 16:32] - refactor(config): centralize environment schema validation using Pydantic
 - Enforced type safety and required secret validation at startup.
+
+## [2026-07-21 21:37] - feat(integrations): add webhook notification dispatch hook
+- Emitted state transition payloads to registered webhook endpoints.
