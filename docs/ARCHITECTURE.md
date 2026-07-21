@@ -233,3 +233,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-16 20:01] - docs(arch): add sequence diagram for subagent dispatch mechanism
 - Outlined communication protocol between coordinator and workers.
+
+## [2026-07-21 16:32] - refactor(config): centralize environment schema validation using Pydantic
+- Enforced type safety and required secret validation at startup.
