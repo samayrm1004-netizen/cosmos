@@ -239,3 +239,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-07-21 21:37] - feat(integrations): add webhook notification dispatch hook
 - Emitted state transition payloads to registered webhook endpoints.
+
+## [2026-08-11 14:44] - refactor(agent): encapsulate prompt template compilation logic
+- Separated prompt interpolation from agent runtime loop.
