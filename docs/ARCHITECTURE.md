@@ -248,3 +248,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-08-16 19:43] - fix(memory): avoid memory leak when disposing inactive agent sessions
 - Explicitly cleared lingering event listeners on session terminate.
+
+## [2026-08-16 21:05] - refactor(config): centralize environment schema validation using Pydantic
+- Enforced type safety and required secret validation at startup.
