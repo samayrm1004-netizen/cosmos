@@ -242,3 +242,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-08-11 14:44] - refactor(agent): encapsulate prompt template compilation logic
 - Separated prompt interpolation from agent runtime loop.
+
+## [2026-08-16 11:09] - feat(planner): support dynamic step retry on transient failures
+- Added exponential backoff policy for flaky external tool invocations.
