@@ -251,3 +251,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-08-16 21:05] - refactor(config): centralize environment schema validation using Pydantic
 - Enforced type safety and required secret validation at startup.
+
+## [2026-08-18 10:08] - docs(quickstart): write introductory walkthrough and example usage
+- Documented single-agent and multi-agent coordination setup.
