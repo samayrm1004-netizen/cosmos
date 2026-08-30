@@ -254,3 +254,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-08-18 10:08] - docs(quickstart): write introductory walkthrough and example usage
 - Documented single-agent and multi-agent coordination setup.
+
+## [2026-08-30 10:39] - fix(parser): handle unescaped markdown JSON codeblocks cleanly
+- Stripped leading/trailing backticks and sanitized raw string payloads.
