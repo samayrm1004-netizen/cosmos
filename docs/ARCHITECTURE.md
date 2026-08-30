@@ -257,3 +257,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-08-30 10:39] - fix(parser): handle unescaped markdown JSON codeblocks cleanly
 - Stripped leading/trailing backticks and sanitized raw string payloads.
+
+## [2026-08-30 17:59] - chore: set up automated linting and formatting configuration
+- Added ruff and black configurations for repository consistency.
