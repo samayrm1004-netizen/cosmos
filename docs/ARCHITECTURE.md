@@ -263,3 +263,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-09-01 18:34] - style(cli): improve terminal table formatting and progress output
 - Styled status tables with clean border alignments.
+
+## [2026-09-01 20:27] - fix(runner): prevent deadlock in circular dependency resolution
+- Added topological sort cycle detection with clear error traceback.
