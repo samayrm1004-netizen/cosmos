@@ -272,3 +272,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-09-16 13:28] - refactor(tools): standardize tool output schema and status codes
 - Normalized tool results into structured Result object.
+
+## [2026-09-16 21:58] - perf(memory): implement LRU eviction for agent short-term buffer
+- Bounded context token usage to prevent out-of-memory errors on long runs.
