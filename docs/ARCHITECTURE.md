@@ -269,3 +269,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-09-16 11:10] - refactor(scheduler): migrate priority queue to min-heap implementation
 - Reduced task scheduling overhead to logarithmic time complexity.
+
+## [2026-09-16 13:28] - refactor(tools): standardize tool output schema and status codes
+- Normalized tool results into structured Result object.
