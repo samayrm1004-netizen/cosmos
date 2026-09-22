@@ -281,3 +281,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-09-22 16:02] - refactor(scheduler): migrate priority queue to min-heap implementation
 - Reduced task scheduling overhead to logarithmic time complexity.
+
+## [2026-09-22 17:36] - perf(tokens): add fast token counting utility using tiktoken
+- Pre-calculated prompt sizes to optimize window utilization.
