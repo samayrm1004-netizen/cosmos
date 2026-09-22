@@ -278,3 +278,6 @@ Core workflow orchestrator and autonomous agent execution framework.
 
 ## [2026-09-22 15:08] - perf(memory): implement LRU eviction for agent short-term buffer
 - Bounded context token usage to prevent out-of-memory errors on long runs.
+
+## [2026-09-22 16:02] - refactor(scheduler): migrate priority queue to min-heap implementation
+- Reduced task scheduling overhead to logarithmic time complexity.
